@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 8px;
+  display: block;
   text-align: center;
   font-family: "Merriweather", serif;
   color: #40514e;
@@ -46,7 +47,13 @@ hr {
   height: 0px;
   width: 5%;
 }
+#mainHeading {
+  color: red;
+}
 
+.funParagraph {
+  color: green;
+}
 .top-container {
   background-color: #eaf6f6;
   position: relative;
@@ -57,7 +64,7 @@ hr {
   background-color: white;
   padding: 100px 0;
 }
-.myimage {
+#myimage {
   width: 17%;
 }
 
